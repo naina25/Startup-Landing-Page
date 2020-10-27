@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("doggo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+.navbar-default .navbar-brand {
+    color: rgb(146, 85, 85);
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(146, 85, 85);
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: black;
+}
+.styling{
+    text-align: center;
+    padding-top:25%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4)
+                 0px 8px 13px rgba(0, 0, 0, 0.1)
+                 0px 10px 23px rgba(0, 0, 0, 0.1);
+}
+hr{
+    width: 400px;
+    margin: 0 auto 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(0.2, 0.2, 0.2);
+    
+}
+h1{
+    font-size: 4.5em;
+    font-weight: 700;
+}
